@@ -24,10 +24,12 @@ a {
 header {
   height: 64px;
   z-index: 999;
-
 }
 
-
+header #logolink a {
+  display: flex;
+  align-items: center;
+}
 
 #logolink {
   height: 32px;
@@ -42,7 +44,6 @@ nav {
   text-align: right;
   flex-grow: 1;
   padding-right: 24px;
-  justify-content: space-between;
 }
 
 nav span {
@@ -52,13 +53,10 @@ nav span {
 /* Banner Section */
 
 #banner {
-
   background-color: gray;
-
 }
 
 #banner img {
   padding: 32px 24px 32px 24px;
   max-width: 60%;
-
 }
