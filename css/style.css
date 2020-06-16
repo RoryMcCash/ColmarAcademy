@@ -55,22 +55,38 @@ nav span {
 
 /* Banner Section */
 
-#banner {
+#banner-section {
   padding-top: 64px;
   background-color: gray;
 }
 
-#banner img {
+#banner-section img {
   padding: 32px 24px 32px 24px;
   max-width: 60%;
 }
 
-#banner .text {
-
+#banner-section .signup {
   font-family: helvetica;
+  /*padding-right: 180px;*/
 }
 
 .text h1 {
   font-weight: 900;
-  font-stretch: condensed;
+}
+
+.button {
+  height: 32px;
+  background-color: #333333 ;
+}
+
+.button p {
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+/* Info Section */
+
+#info-section {
+  
 }
