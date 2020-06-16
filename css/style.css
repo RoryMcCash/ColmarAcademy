@@ -22,8 +22,11 @@ a {
 /* Header */
 
 header {
+  position: fixed;
   height: 64px;
+  width: 100%;
   z-index: 999;
+  background-color: white;
 }
 
 header #logolink a {
@@ -53,10 +56,21 @@ nav span {
 /* Banner Section */
 
 #banner {
+  padding-top: 64px;
   background-color: gray;
 }
 
 #banner img {
   padding: 32px 24px 32px 24px;
   max-width: 60%;
+}
+
+#banner .text {
+
+  font-family: helvetica;
+}
+
+.text h1 {
+  font-weight: 900;
+  font-stretch: condensed;
 }
