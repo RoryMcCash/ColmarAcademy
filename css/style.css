@@ -45,7 +45,7 @@ h2 {
 
 .smallbox-container p,
 .smallbox-container a {
-  width: 100%;
+
   margin: 0px 0px 8px 0px;
   font-size: 14px;
 }
@@ -72,7 +72,7 @@ header #logolink a {
   padding-left: 24px;
 }
 
-nav {
+header nav {
   font-size: 1.17em;
   text-align: right;
   flex-grow: 1;
@@ -197,3 +197,61 @@ nav span {
 }
 
 /* Thesis Section */
+
+#thesis-section {
+  padding: 32px 0px 32px 24px;
+  border-bottom: 1px solid #bfbfbf;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.thesisvideo {
+  /*
+  min-width: 60%;
+  max-width: 60%;
+  */
+  width: 60%;
+
+}
+
+video {
+  width: 100%;
+  padding-bottom: 24px;
+}
+
+.thesisinfo {
+  width: 40%;
+  
+
+
+
+}
+
+.thesisinfo img {
+  width: 35%;
+  padding: 16px;
+}
+
+#thesisbox1 {
+  background-color: #bfbfbf;
+  margin-left: 24px;
+}
+
+#thesisbox2 {
+  margin-left: 24px;
+}
+
+/* Footer */
+
+footer {
+  font-size: 12px;
+  color: #4a4a4a;
+  padding-left: 24px;
+}
+
+footer nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 16px;
+}
