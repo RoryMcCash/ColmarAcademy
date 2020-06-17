@@ -7,7 +7,6 @@ body {
 
 .main {
   padding-top: 64px;
-
   color: #4a4a4a;
 }
 
@@ -38,7 +37,6 @@ h2 {
 
 .smallbox-container h2 {
   margin: 0px 0px 8px 0px;
-
 }
 
 .smallbox-container a {
@@ -125,7 +123,6 @@ nav span {
 .practice img {
   padding-bottom: 32px;
   width: 100%;
-
 }
 
 .practice .quote {
@@ -148,9 +145,9 @@ nav span {
   padding: 16px;
 }
 
-.text {
+.infotext {
   min-height: 100%;
-  padding: 16px;
+  padding: 16px 0px;
 }
 
 #infobox1 {
@@ -171,7 +168,6 @@ nav span {
 
 #course-section {
   background-color: #bfbfbf;
-
 }
 
 .courseboxes {
@@ -179,19 +175,16 @@ nav span {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-
-  padding: 16px 72px;
+  padding: 16px 56px;
 }
-
-
 
 #coursebox {
   background-color: white;
   margin: 16px;
-  padding-bottom: 16px;
   width: 100%;
   flex-direction: column;
   align-items: flex-start;
+  flex-grow: 1;
   flex-basis: 30%;
 }
 
@@ -199,12 +192,8 @@ nav span {
   width: 100%;
 }
 
-#coursebox h2 {
-  padding: 16px 0px 0px 16px;
+.coursetext {
+  padding: 16px;
 }
 
-#coursebox h2,
-#coursebox p {
-  padding-left: 16px;
-
-}
+/* Thesis Section */
