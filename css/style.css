@@ -7,12 +7,9 @@ body {
 
 .main {
   padding-top: 64px;
-  margin: 0;
-  font-family: helvetica;
+
   color: #4a4a4a;
 }
-
-
 
 a {
   color: inherit;
@@ -24,7 +21,7 @@ h1 {
   font-weight: 900;
 }
 
-h2 {
+h3 {
   margin: 0;
   font-weight: 700;
 }
@@ -41,15 +38,13 @@ h2 {
 
 .smallbox-container p,
 .smallbox-container a {
+  margin: 8px 0px;
   font-size: 14px;
-  margin: 10px 10px;
 }
 
 .smallbox-container a {
   color: #0097fc;
 }
-
-
 
 /* Header */
 
@@ -89,23 +84,15 @@ nav span {
   margin: 0;
 }
 
-.img-container {
-  padding: 32px 24px 32px 24px;
+#banner-section img {
+  padding: 32px 24px;
   min-width: 60%;
   max-width: 60%;
 }
 
-#banner-section img {
-  width: 100%;
-}
-
-#banner-section .signup {
-  font-family: helvetica;
-}
-
 .button {
   height: 32px;
-  background-color: #4a4a4a ;
+  background-color: #4a4a4a;
 }
 
 .button p {
@@ -122,14 +109,15 @@ nav span {
 }
 
 .practice {
-  padding: 32px 24px 32px 24px;
+  padding: 32px 24px;
   min-width: 60%;
   max-width: 60%;
 }
 
 .practice img {
-  padding: 0px 0px 32px 0px;
+  padding-bottom: 32px;
   width: 100%;
+
 }
 
 .practice .quote {
@@ -149,28 +137,25 @@ nav span {
 
 .infoboxes img {
   width: 35%;
-  height: 100%;
   padding: 16px;
 }
 
-#box1 {
+#infobox1 {
   padding-top: 16px;
   border-bottom: 1px solid #bfbfbf;
 }
 
-#box2 {
+#infobox2 {
   border-top: 1px solid #bfbfbf;
 }
 
-#box3 {
+#infobox3 {
   margin-bottom: 32px;
   background-color: #bfbfbf;
 }
 
-/*
-.box1 img,
-.box2 img,
-.box3 img {
-  padding: 16px;
+/* Course Section */
+
+#course-section {
+  
 }
-*/
