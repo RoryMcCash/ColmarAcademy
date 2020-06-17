@@ -1,12 +1,26 @@
 /* Universal */
 
-html {
+body {
+  margin: 0;
   font-family: verdana;
+}
+
+div {
+  margin: 0;
+}
+
+img {
+  margin: 0;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 900;
 }
 
 .flex-container {
@@ -16,7 +30,7 @@ a {
 }
 
 .main {
-
+  padding-top: 64px;
 }
 
 /* Header */
@@ -56,22 +70,19 @@ nav span {
 /* Banner Section */
 
 #banner-section {
-  padding-top: 64px;
   background-color: gray;
 }
 
 #banner-section img {
   padding: 32px 24px 32px 24px;
   max-width: 60%;
+  min-width: 60%;
+
 }
 
 #banner-section .signup {
   font-family: helvetica;
   /*padding-right: 180px;*/
-}
-
-.text h1 {
-  font-weight: 900;
 }
 
 .button {
@@ -88,5 +99,58 @@ nav span {
 /* Info Section */
 
 #info-section {
-  
+
+
 }
+
+.practice {
+  padding: 32px 24px 32px 24px;
+  width: 60%;
+
+
+}
+
+.practice img {
+  padding: 0px 0px 32px 0px;
+  width: 100%;
+
+}
+
+.practice .p1,
+.practice h2 {
+  padding-bottom: 24px;
+}
+
+.infoboxes {
+  border-left: 1px solid gray;
+  /*width: 40%;*/
+  height: 100%;
+
+}
+
+.infoboxes img {
+  width: 35%;
+  /**/
+  padding: 16px;
+}
+
+.box1 {
+  border-bottom: 1px solid gray;
+}
+
+.box2 {
+  border-top: 1px solid gray;
+  border-color: gray;
+}
+
+.box3 {
+  background-color: gray;
+}
+
+/*
+.box1 img,
+.box2 img,
+.box3 img {
+  padding: 16px;
+}
+*/
