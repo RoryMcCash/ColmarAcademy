@@ -30,6 +30,7 @@ h2 {
   align-items: center;
 }
 
+
 .smallbox-container {
   display: flex;
   align-items: center;
@@ -48,6 +49,20 @@ h2 {
   margin: 0px 0px 8px 0px;
   font-size: 14px;
 }
+
+#mobile-header {
+  display: none;
+}
+
+#mobile-info {
+  display: none;
+}
+
+#mobile-course {
+  display: none;
+}
+
+
 
 /* Header */
 
@@ -80,6 +95,31 @@ nav span {
   padding-left: 16px;
 }
 
+@media only screen and (max-width: 652px) {
+
+  header nav,
+  #logolink  {
+    display: none;
+  }
+
+  #mobile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+  }
+
+  #mobile-header a,
+  #mobile-header img {
+    width: 30px;
+    height: 32px;
+  }
+}
+
 /* Banner Section */
 
 #banner-section {
@@ -103,6 +143,39 @@ nav span {
   color: white;
 }
 
+@media only screen and (max-width: 652px) {
+  #banner-section {
+    display: block;
+  }
+
+  #banner-section img {
+    padding: 0;
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .signup {
+    padding: 32px 16px;
+  }
+
+  .signup h1 {
+    padding-bottom: 32px;
+  }
+
+  .signup h3 {
+    padding-bottom: 24px;
+    margin: 0;
+  }
+
+  .button {
+    padding: 0;
+  }
+
+  .button p {
+    margin: 0;
+  }
+}
+
 /* Info Section */
 
 #info-section {
@@ -118,6 +191,7 @@ nav span {
 .practice img {
   padding-bottom: 32px;
   width: 100%;
+
 }
 
 .practice .quote {
@@ -154,6 +228,51 @@ nav span {
   background-color: #bfbfbf;
 }
 
+@media only screen and (max-width: 652px) {
+
+  .practice {
+    display: none;
+  }
+
+  .infoboxes {
+    display: none;
+  }
+
+  #mobile-info {
+    display: block;
+    padding-bottom: 16px;
+  }
+
+  #mobile-infobox {
+    display: block;
+    padding: 16px;
+    width: 100%;
+  }
+
+  #mobile-infobox a {
+    color: #0097fc;
+  }
+
+  #mobile-infobox img {
+    width: 100%;
+    padding: 0;
+  }
+
+  #mobile-infobox h2 {
+    margin: 0px 0px 8px 0px;
+  }
+
+  #mobile-infobox p,
+  #mobile-infobox a {
+    margin: 0px 0px 8px 0px;
+    font-size: 14px;
+  }
+
+  .mobile-infotext {
+    padding: 32px 16px 0px 16px;
+  }
+}
+
 /* Course Section */
 
 #course-section {
@@ -171,7 +290,6 @@ nav span {
 #coursebox {
   background-color: white;
   margin: 16px;
-  width: 100%;
   flex-direction: column;
   align-items: flex-start;
   flex-grow: 1;
@@ -186,7 +304,41 @@ nav span {
   padding: 16px;
 }
 
+@media only screen and (max-width: 652px) {
+  #course-header {
+    display: none;
+  }
+
+  #course-section {
+    display: none;
+  }
+
+  #mobile-course {
+    display: block;
+  }
+
+  .mobile-courseboxes {
+    margin-bottom: 32px;
+  }
+
+  .mobile-coursebox {
+    background-color: #bfbfbf;
+    margin: 8px 16px;
+  }
+
+  .mobile-coursebox h3 {
+    padding: 24px 16px;
+    margin: 0;
+  }
+}
+
 /* Thesis Section */
+
+#thesis-header h1 {
+  padding-top: 32px;
+  text-align: center;
+
+}
 
 #thesis-section {
   padding: 32px 0px 32px 24px;
@@ -196,11 +348,9 @@ nav span {
 }
 
 .thesisvideo {
-
   min-width: 60%;
   max-width: 60%;
-  */
-  width: 60%;
+
 }
 
 .thesisvideo .quote{
@@ -231,6 +381,32 @@ video {
   background-color: #bfbfbf;
 }
 
+@media only screen and (max-width: 652px) {
+
+
+  #thesis-section {
+    padding: 16px 0 24px 0;
+    border: 0;
+  }
+
+  .thesisvideo {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  .thesisvideo h2 {
+    display: none;
+  }
+
+  .thesisvideo p {
+    display: none;
+  }
+
+  .thesisinfo {
+    display: none;
+  }
+}
+
 
 /* Footer */
 
@@ -245,4 +421,19 @@ footer nav {
   text-align: right;
   flex-grow: 1;
   padding-right: 16px;
+}
+
+@media only screen and (max-width: 652px) {
+  footer {
+    padding-bottom: 0px;
+  }
+
+  footer p {
+    margin: 0;
+    padding: 16px;
+  }
+
+  footer nav {
+    display: none;
+  }
 }

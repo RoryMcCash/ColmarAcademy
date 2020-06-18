@@ -7,6 +7,8 @@
   </head>
   <body>
 
+    <!-- Page breakpoint is around 652px - Layout will change to mobile layout when screen is below 652px width -->
+
     <!-- Header -->
 
     <header class="flex-container">
@@ -22,6 +24,16 @@
         <span><a href="course">For companies</a></span>
         <span><a href="thesis">Sign in</a></span>
       </nav>
+
+      <!-- Mobile Header - Switched off for 652px plus -->
+
+      <div id="mobile-header">
+        <a href="#"><img src="images\ic-logo.svg"></a>
+        <a href="#"><img src="images\ic-on-campus.svg"></a>
+        <a href="#"><img src="images\ic-online.svg"></a>
+        <a href="#"><img src="images\ic-login.svg"></a>
+      </div>
+
     </header>
 
     <!-- Main Container -->
@@ -35,9 +47,11 @@
         <div class="signup">
           <h1>Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-          <div class="button">
+          <a href="#">
+            <div class="button">
             <p>Start here</p>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
 
@@ -76,11 +90,44 @@
             </div>
           </div>
         </div>
+
+        <!-- Mobile Info Section - Switched off for 652px plus -->
+
+        <div id="mobile-info">
+          <div class="mobile-infoboxes">
+            <div id="mobile-infobox">
+              <img src="images\information-orientation-mobile.jpg">
+              <div class="mobile-infotext">
+                <h2>Orientation date</h2>
+                <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div id="mobile-infobox">
+              <img src="images\information-campus-mobile.jpg">
+              <div class="mobile-infotext">
+                <h2>Our campus</h2>
+                <p>Find which campus is close to you</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+            <div id="mobile-infobox">
+              <img src="images\information-guest-lecture-mobile.jpg">
+              <div class="mobile-infotext">
+                <h2>Our guest lecture</h2>
+                <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Course Section -->
 
-      <h1 style="padding-top: 32px; text-align: center; background-color:#bfbfbf">Start learning</h1>
+      <div id="course-header">
+        <h1 style="padding-top: 32px; text-align: center; background-color:#bfbfbf">Start learning</h1>
+      </div>
       <div id="course-section" class="flex-container">
         <div class="courseboxes">
           <div id="coursebox" class="smallbox-container">
@@ -134,9 +181,50 @@
         </div>
       </div>
 
-      <!-- Thesis Section -->
+      <!-- Mobile Course Section - Switched off for 652px plus -->
 
-      <h1 style="padding-top:32px; text-align:center">Thesis exhibit</h1>
+      <div id="mobile-course">
+        <h1 style="padding: 32px 0px 8px 0px; text-align: center">Start learning</h1>
+        <div class="mobile-courseboxes">
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Software engineering</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Computer art</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Design</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Data</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Business</h3>
+            </div>
+          </a>
+          <a href="#">
+            <div class="mobile-coursebox">
+              <h3>Marketing</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+
+      <!-- Thesis Section -->
+      <div id="thesis-header">
+        <h1 >Thesis exhibit</h1>
+      </div>
       <div id="thesis-section">
         <div class="thesisvideo">
           <video controls src="videos\thesis.mp4" poster="images\video-poster.png">Thesis video</video>
