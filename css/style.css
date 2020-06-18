@@ -62,8 +62,6 @@ h2 {
   display: none;
 }
 
-
-
 /* Header */
 
 header {
@@ -96,7 +94,6 @@ nav span {
 }
 
 @media only screen and (max-width: 652px) {
-
   header nav,
   #logolink  {
     display: none;
@@ -238,14 +235,27 @@ nav span {
     display: none;
   }
 
+
+
   #mobile-info {
     display: block;
     padding-bottom: 16px;
+    width: 100%;
+    padding: 16px;
+  }
+
+  #mobile-infoboxes {
+    /*
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    padding: 0;
+    */
   }
 
   #mobile-infobox {
     display: block;
-    padding: 16px;
+    padding: 16px 0px;
     width: 100%;
   }
 
@@ -337,7 +347,6 @@ nav span {
 #thesis-header h1 {
   padding-top: 32px;
   text-align: center;
-
 }
 
 #thesis-section {
@@ -350,7 +359,6 @@ nav span {
 .thesisvideo {
   min-width: 60%;
   max-width: 60%;
-
 }
 
 .thesisvideo .quote{
@@ -360,7 +368,6 @@ nav span {
 
 video {
   width: 100%;
-
 }
 
 .thesisvideo h2 {
