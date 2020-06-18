@@ -45,12 +45,9 @@ h2 {
 
 .smallbox-container p,
 .smallbox-container a {
-
   margin: 0px 0px 8px 0px;
   font-size: 14px;
 }
-
-
 
 /* Header */
 
@@ -87,7 +84,6 @@ nav span {
 
 #banner-section {
   background-color: #bfbfbf;
-  margin: 0;
 }
 
 #banner-section img {
@@ -111,7 +107,6 @@ nav span {
 
 #info-section {
   display: flex;
-  margin: 0;
 }
 
 .practice {
@@ -143,11 +138,6 @@ nav span {
 .infoboxes img {
   width: 35%;
   padding: 16px;
-}
-
-.infotext {
-  min-height: 100%;
-  padding: 16px 0px;
 }
 
 #infobox1 {
@@ -203,29 +193,33 @@ nav span {
   border-bottom: 1px solid #bfbfbf;
   display: flex;
   align-items: flex-start;
-
 }
 
 .thesisvideo {
-  /*
+
   min-width: 60%;
   max-width: 60%;
   */
   width: 60%;
+}
 
+.thesisvideo .quote{
+  font-size: 14px;
+  margin: 8px 0 0 0;
 }
 
 video {
   width: 100%;
-  padding-bottom: 24px;
+
+}
+
+.thesisvideo h2 {
+  padding-top: 24px;
 }
 
 .thesisinfo {
   width: 40%;
-  
-
-
-
+  margin-left: 24px;
 }
 
 .thesisinfo img {
@@ -235,12 +229,8 @@ video {
 
 #thesisbox1 {
   background-color: #bfbfbf;
-  margin-left: 24px;
 }
 
-#thesisbox2 {
-  margin-left: 24px;
-}
 
 /* Footer */
 
@@ -248,6 +238,7 @@ footer {
   font-size: 12px;
   color: #4a4a4a;
   padding-left: 24px;
+  padding-bottom: 32px;
 }
 
 footer nav {
