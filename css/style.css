@@ -226,7 +226,6 @@ nav span {
 }
 
 @media only screen and (max-width: 652px) {
-
   .practice {
     display: none;
   }
@@ -235,22 +234,11 @@ nav span {
     display: none;
   }
 
-
-
   #mobile-info {
     display: block;
     padding-bottom: 16px;
     width: 100%;
     padding: 16px;
-  }
-
-  #mobile-infoboxes {
-    /*
-    display: block;
-    min-width: 100%;
-    max-width: 100%;
-    padding: 0;
-    */
   }
 
   #mobile-infobox {
@@ -389,8 +377,6 @@ video {
 }
 
 @media only screen and (max-width: 652px) {
-
-
   #thesis-section {
     padding: 16px 0 24px 0;
     border: 0;
@@ -413,7 +399,6 @@ video {
     display: none;
   }
 }
-
 
 /* Footer */
 
